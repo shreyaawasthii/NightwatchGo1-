@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="test.Dashboard.test"
+    errors="0" failures="1" hostname="" id="" package="Dashboard.test" skipped="2"
+    tests="2" time="111.2" timestamp="">
+  
+    <testcase name="Verify successful login with valid credentials" classname="test.Dashboard.test" time="3.387" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Verify user should be able to see the all the activities on the My activity " classname="test.Dashboard.test" time="51.39" assertions="1">  <failure message="Timed out while waiting for element &lt;//a[contains(text(), &#34;My Activity&#34;)]&gt; to be present for 50000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (50202ms)">    at DescribeInstance.&lt;anonymous&gt; (/home/knoldus/Downloads/NightwatchGo/test/Dashboard.test.js:26:15)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+    
+    <testcase
+      name="Verify appropriate points for contributions" classname="test.Dashboard.test">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Verify that the user can able to see the time the activity was done on all Activity-" classname="test.Dashboard.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
